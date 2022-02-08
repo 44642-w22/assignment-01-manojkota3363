@@ -127,10 +127,7 @@ for(int i=0;i<n2;i++) {
 		
 		
 		Queue<Integer> Q3 = new LinkedList<>();
-		/*Q3.offer(5);
-		Q3.offer(3);
-		Q3.offer(1);
-		Q3.offer(4);*/
+		
 		System.out.println("******problem9******");
 		System.out.println("enter the Size of Deque");
 
@@ -144,11 +141,7 @@ for(int i=0;i<n2;i++) {
 		
 		
 		Deque<String> Q4 = new ArrayDeque<>();
-		/*Q4.add("M");
-		Q4.add("A");
-		Q4.add("T");
-		Q4.add("H");
-		Q4.add("S");*/
+		
 		System.out.println("******problem10******");
 		System.out.println("enter the Size of Deque");
 
@@ -166,7 +159,7 @@ for(int i=0;i<n2;i++) {
 		for(int i=0;i<n10;i++) {
 			arr[i]=sc.nextInt();
 		}
-		//Integer[] arr = {1, 1, 0};
+		
 		System.out.println(Obj1.problem10(Q4,arr));
 	
 	
